@@ -1,4 +1,9 @@
 @media all and (max-width:480px){
+    body{
+        width:100%;
+        background: yellow;
+        opacity: 50%;
+    }
     ul,li{
         display:block;
         margin: 5px 0px;
