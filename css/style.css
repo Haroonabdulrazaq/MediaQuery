@@ -1,4 +1,4 @@
-@media all and (max-device-width:480px){
+@media all and (max-width:480px){
     ul,li{
         display:block;
         margin: 5px 0px;
