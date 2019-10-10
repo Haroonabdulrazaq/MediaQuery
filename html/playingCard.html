@@ -1,0 +1,88 @@
+<!--Sample playing card-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <title>Playing Card</title>
+        <style>
+            body{
+                box-sizing: border-box;
+            }
+            div {
+                color: red;
+                font-family: 'Trebuchet MS';
+                text-align: center;
+                font-size: 50px;
+                box-sizing: border-box;
+                background: white;
+            }
+            .wrapper {
+                height: 100%;
+                /* add Flexbox code here! */
+                display:flex;
+                flex-flow: row wrap;
+               /* flex-wrap:wrap;*/
+                justify-content:space-between;
+                align-items: center;
+            }
+            .card {
+                border: 2px solid black;
+                border-radius: 3px;
+                padding: 60px 10px;
+                margin: 10px;
+                width: 140px;
+                height: 200px;
+                      
+            }       
+           div:nth-child(6),  div:nth-child(7),  div:nth-child(8),  div:nth-child(9),  div:nth-child(10),  div:nth-child(11),div:nth-child(13),  div:nth-child(12){
+                background: white;
+            }
+            footer{
+                position: absolute;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        
+<header>    <h1>Learning Flex box</h1>
+    <h3>Making it reponsive without Media Query</h3>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+        <div class="wrapper">
+            <div class="card">2♥︎</div>
+            <div class="card">3♥︎</div>
+            <div class="card">4♥︎</div>
+            <div class="card">5♥︎</div>
+            <div class="card">6♥︎</div>
+            <div class="card">7♥︎</div>
+            <div class="card">8♥︎</div>
+            <div class="card">9♥︎</div>
+            <div class="card">10♥︎</div>
+            <div class="card">J♥︎</div>
+            <div class="card">Q♥︎</div>
+            <div class="card">K♥︎</div>
+            <div class="card">A♥︎</div>
+        </div>
+
+
+        
+<footer>
+        <nav id="footer">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="playingCard.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </footer>
+    </body>
+</html>
