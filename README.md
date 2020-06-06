@@ -1,6 +1,7 @@
 # CSS Layout with Media Query Grid And Flex Box
 CSS LAyout Project[Openclassrooms Activity]
-# Space School webpage
+
+# Webpage on mobile
 
 ![screenshot](./image/Screenshot.png)
  
