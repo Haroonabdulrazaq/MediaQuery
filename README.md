@@ -3,7 +3,7 @@ CSS LAyout Project[Openclassrooms Activity]
 
 # Webpage on mobile
 
-![screenshot](./image/Screenshot.png)
+![screenshot](./images/Screenshot.png)
  
 ## Built With
 
